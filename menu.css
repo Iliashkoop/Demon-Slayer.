@@ -236,7 +236,6 @@ border-radius: 5px;
       transition: background-color 0.5s linear;
   }
 
-    
 
   .slider
   {
@@ -779,6 +778,23 @@ display: block;
   margin-left: 150px;
 }
 
+.kt-bt
+{
+  border-radius: 35px;
+  transition: all .5s linear;
+}
+
+.kt-bt:hover
+{
+  border-radius: 15px;
+  transition: all .2s linear;
+}
+
+.kt-b
+{
+  border-radius: 35px;
+ 
+}
 
 
 
@@ -931,6 +947,24 @@ border-bottom:1px solid #E0E4CC;
 
 
 .closek
+{
+  color: white;
+  font-size: 78px;
+}
+
+.closed
+{
+  color: white;
+  font-size: 78px;
+}
+
+.closede
+{
+  color: white;
+  font-size: 78px;
+}
+
+.close
 {
   color: white;
   font-size: 78px;
