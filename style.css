@@ -445,7 +445,7 @@ border-radius: 5px;
     }
     
     .hea
-    {margin-left: 80px;margin-top: 150px;}
+    {padding-left: 80px;margin-top: 150px;}
     
     .inter
     {
@@ -470,7 +470,7 @@ border-radius: 5px;
     
     
     .hea2
-    {margin-top: 50;margin-left: 320px;}
+    {padding-left: 205; }
     
     .inter2
     {
@@ -507,7 +507,7 @@ width: 153px;
     } */
     
     .hea3
-    {margin-top: 50px;margin-left: 80px;}
+    {margin-top: 50px; padding-left: 80px;}
     
     .inter3
     {
@@ -670,10 +670,7 @@ width: 153px;
 
 
 
-.close
-{
 
-}
 
 .text-overlay {
   position: absolute;
@@ -936,7 +933,93 @@ border-bottom:1px solid #E0E4CC;
   font-size: 78px;
 }
 
-.arrow{
-  
 
+
+
+@media (max-width: 1705px)
+{
+  
+  .slider {margin-left: 145px;}
+}
+
+@media (max-width: 1656px)
+{
+  
+  .slider {margin-left: 125px;}
+}
+
+
+@media (max-width: 1605px)
+{
+  .header-title { font-size: 44px;}
+  .slider {margin-left: 110px;}
+  .veshea{padding: 8px 9px; margin-top: 195px;}
+  .co {padding-left: 130px;}
+  .nom{padding-left: 120px;}
+  .itetre1{width:660px;}
+  .itetre2{width:510px;}
+  .itetre3{width:660px;}
+  .slayicon{width:600px;}
+  .titleintt{    margin-top: 80px; margin-left: 65px;}
+  .hea2{padding-left: 200px}
+  .hea{padding-left:60px}
+  .hea3{padding-left:60px}
+  .bot{padding-left:135px}
+}
+
+@media (max-width: 1560px)
+{
+.tanjiroicon{width:180px;}
+.logop{width:140PX;}
+.vessob{font-size:50PX;}
+.slider {margin-left: 60px;}
+.con {padding-left:130px;}
+.itetre1{width:620px;}
+.itetre2{width:490px;}
+.itetre3{width:620px;}
+.titleintt{margin-top: 40px; margin-left: 65px;}
+.hea2{padding-left: 150px}
+.hea{padding-left:60px}
+.hea3{padding-left:60px}
+}
+
+@media (max-width: 1530px)
+
+{ 
+  .slider{width:1200px; height:400px; margin-left:200px}
+  
+  .slide:nth-child(1) {background-image:url(scr/icon/ind/Group\ 21\ \(3\).png); }
+  .containerr{width:800px}
+  .map{width:1500px; width:auto;}
+  .con{padding-left:130px}
+  
+}
+@media (max-width: 1480px)
+{
+   
+  .header-sobtitle{font-size:40px;}
+  .slayicon{width:560px;}
+  .header-down{margin:0px 0px 0px 40px;}
+  .veshea{padding: 8px 9px; margin-top: 220px;}
+  .itetre1{width:550px;}
+  .itetre2{width:440px;}
+  .itetre3{width:550px;}
+  .titleintt{margin-top: 40px; margin-left: 65px; font-size:22px; padding:40px 100px}
+  .titleintt2{margin-top: 50px; margin-right:70px; font-size:22px; padding:40px 100px}
+  .titleintt3{margin-top: 50px; margin-left: 65px; font-size:22px; padding:40px 100px}
+  .hea2{padding-left: 150px}
+  .hea{padding-left:100px}
+  .hea3{padding-left:100px}
+  .slider{margin-left:150px}
+  .con{font-size:44px; padding-left: 90px; }
+  .co{font-size:22px; padding-left: 90px;}
+  .bot{padding-left:100px;}
+  .nom{padding-left:90px;}
+  body {background-image: url(scr/icon/ind/Group\ 31.png);}
+  
+}
+
+@media (max-width: 1344px)
+{
+  .slider{margin-left:90px}
 }
