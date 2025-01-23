@@ -5,7 +5,19 @@ header {
   flex-wrap: wrap;
   /* position: fixed; */
   background-color: rgba(64, 61, 61, 0.25);
-  padding: 20px 10px;
+  /* padding: 20px 10px; */
+  /* margin: -450px 0; */
+  width: -webkit-fill-available;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* position: fixed; */
+  /* background-color: rgba(64, 61, 61, 0.25); */
+  /* padding: 20px 10px; */
   /* margin: -450px 0; */
   width: -webkit-fill-available;
 }
@@ -20,16 +32,15 @@ html {
   .wrap-logo {
     display: flex;
     align-items: center;
-   
-   
   }
   
-  header a {
+  header .navi {
+    /* order: unset; */
     padding: 12px;
     color: #ffffff;
     font-weight: 600;
     text-decoration: none;
-    font-size: 20px; 
+    font-size: 20pt;
     border-radius: 4px;
   }
   
@@ -51,12 +62,12 @@ html {
   
   
   
-  nav {
-    
-display: flex;
-    
-align-items: center;
-    }
+  nav 
+  {
+  display: flex;  
+  align-items: center;
+  }
+
   .phone-image
   {
       margin-right: 40px;
@@ -93,17 +104,20 @@ border-radius: 5px;
   
     .map {
       
-      display: flex;
-      padding: 40px 0;
-      margin-top:250px ;
+display: flex;
       
+padding: 40px 0;
+      
+margin-top:250px;
   }
   
   .containerr {
    
-      max-width: 100vw;
-      margin: 0 auto;
-      margin-left: 0px;
+max-width: 100vw;
+   
+margin: 0 auto;
+   
+margin-left: 0px;
   }
   
   h2 {
@@ -404,7 +418,7 @@ border-radius: 5px;
       color: #ffffff;
       padding: 12px;
       text-decoration: none;
-      font-size: 18px;
+      /* font-size: 10px; */
       border-radius: 4px;
     }
     
@@ -478,7 +492,9 @@ border-radius: 5px;
     
     .titleint2
     {
+      padding-left: 200px;
       font-weight: 700;
+      /* margin-right: 188px; */
       letter-spacing: 1px;
     }
     .titleintt2
@@ -486,7 +502,7 @@ border-radius: 5px;
       background-color: #F6F6F6;
       border-radius: 35px;
       margin-top: 110px;
-      margin-right: 90px;
+      margin-right: 131px;
       padding: 50px 65px 50px 65px;
     }
     
@@ -976,8 +992,8 @@ border-bottom:1px solid #E0E4CC;
   .slider{width:1200px; height:400px; margin-left:200px}
   
   .slide:nth-child(1) {background-image:url(scr/icon/ind/Group\ 21\ \(3\).png); }
-  .containerr{width:800px}
-  .map{width:1500px; width:auto;}
+  .containerr{width: 430px;}
+  .map{width:1500px;/* width:auto; */}
   .con{padding-left:130px}
   
 }
@@ -1001,8 +1017,8 @@ border-bottom:1px solid #E0E4CC;
   .con{font-size:44px; padding-left: 90px; }
   .co{font-size:22px; padding-left: 90px;}
   .bot{padding-left:100px;}
-  .nom{padding-left:90px;}
-  body {background-image: url(scr/icon/ind/Group\ 31.png);}
+  .nom{padding-left:70px; padding-top:50px}
+  body {/* background-image: url(scr/icon/ind/Group\ 31.png); */}
   
 }
 
@@ -1011,3 +1027,51 @@ border-bottom:1px solid #E0E4CC;
   .slider{margin-left:90px}
 }
 
+@media (max-width: 430px)
+{
+  body {/* background-image: url(scr/icon/ind/px.png); */}
+  .header{/* padding-inline:10px; */display:block;row-gap:px; flex-wrap:wrap-reverse;}
+  .log{width:150px;margin-left:10px}
+  .navi {order: 1 ; flex-basis:100%; column-gap:10px; }
+  .login{position:absolute; margin:40px  0px 310px 330px}
+  .logi{margin-left:10px}
+  .header-title{margin-top:0px}
+  .header-sobtitle{margin-top:0px}
+  .header-down{display:block; margin:50px 20px 0px 20px}
+  .phone-image{display:none}
+  .slayicon{width:300px;  margin:0px 0px 0px -40px }
+  .navm {font-size:12pt;}
+  .veshea{justify-content:inherit; margin-top:430px}
+  .logoi{display:none}
+  .navis{margin:0 0 0 0}
+  .tanjiro{padding:0 0 10 0}
+  .tanjiroicon{width:51px}
+  .header-sobtitlle{font-size:12pt; margin-top:0px}
+  .header-sobtitlee{font-size:12pt}
+  .containerr{width:200px}
+  .phone-image{width:px;}
+  .vessob{padding-left:20px}
+  .header-sobtitle{font-size:24px;}
+  .slider{width:400px; height:320px; margin-left:17px; border-radius:35px }
+  .map{display: block;width:430px;}
+  .cont{width:430px;}
+  .nom{width:200px; margin-top:70px}
+  .con{width:300px;}
+  .co{width:300px;}
+  .bot{ margin: 0 0 0 0 ; padding:0 0 0 0  }
+  .loginb{margin-left:90px; margin-top: 80px}
+  .hea{padding-left:10px}
+  .inter{display:block; padding:10px 10px 10px 10px }
+  .itetre1{width:400px; padding-left:0px}
+  .titleintt{font-size:16px;margin-left:0px; padding:30px 10px 30px 30px}
+  .inter2{padding:10px 10px 10px 10px; flex-wrap:wrap-reverse }
+  .hea2{padding-left:0px}
+  .itetre2{width:400px;} 
+  .titleint2{padding:0px;}
+  .titleintt2{font-size:16px; margin:40px 0px 0px 0px; padding:30px 10px 30px 30px}
+  .hea3{padding-left:10px}
+  .inter3{display:block; padding:10px 10px 10px 10px; }
+  .itetre3{width:400px; }
+  .titleintt3{font-size:16px;margin-top:40px; margin-left:0px; padding:20px 10px 20px 30px}
+  
+}
