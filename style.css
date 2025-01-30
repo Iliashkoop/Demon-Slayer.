@@ -336,18 +336,18 @@ border-radius: 5px;
     }
 
     .slide:nth-child(1) {
-      background-image: url(/scr/icon/ind/Group\ 21.png);
+      background-image: url(/src/icon/ind/Group\ 21.png);
       
       border-radius: 36px 36px 36px 36px;
       height: 700px;
     }
 
     .slide:nth-child(2) {
-      background-image: url(/scr/icon/ind/filad\ \(1\).png);
+      background-image: url(/src/icon/ind/filad\ \(1\).png);
     }
 
     .slide:nth-child(3) {
-      background-image: url(/scr/icon/ind/filad\ \(1\).png);
+      background-image: url(/src/icon/ind/filad\ \(1\).png);
     }
 
     .arrow {
