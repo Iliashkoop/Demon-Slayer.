@@ -313,7 +313,8 @@ border-radius: 5px;
     padding: 5px 20px;
     }
     
-    .slider {
+    .slider 
+    {
       position: relative;
       height: 695px;
       overflow: hidden;
@@ -321,7 +322,8 @@ border-radius: 5px;
       margin-left: 160px;
     }
 
-    .slider-container {
+    .slider-container 
+    {
       display: flex;
     }
 
@@ -335,19 +337,24 @@ border-radius: 5px;
       color: white;
     }
 
-    .slide:nth-child(1) {
+    .slide:nth-child(1) 
+    {
       background-image: url(/src/icon/ind/Group\ 21.png);
-      
+      background-image: url(/src/icon/ind/aciasmall.png);
       border-radius: 36px 36px 36px 36px;
       height: 700px;
     }
 
-    .slide:nth-child(2) {
-      background-image: url(/src/icon/ind/filad\ \(1\).png);
+    .slide:nth-child(2) 
+    {
+      background-image: url(/src/icon/ind/sushibig.png);
+     
     }
 
-    .slide:nth-child(3) {
-      background-image: url(/src/icon/ind/filad\ \(1\).png);
+    .slide:nth-child(3) 
+    {
+      background-image: url(/src/icon/ind/coffeebig.png);
+      background-image: url(/src/icon/ind/coffeesmall.png);
     }
 
     .arrow {
@@ -396,7 +403,8 @@ border-radius: 5px;
 
 
 
-    .veshea {
+    .veshea 
+    {
       letter-spacing: .1rem;
       display: flex;
       flex-direction: row;
@@ -406,7 +414,8 @@ border-radius: 5px;
       margin-top: 200px;
     }
     
-    .logi {
+    .logi 
+    {
       margin-top: 90px;
       padding-left: 10p;
       margin-left: 151px;
@@ -414,7 +423,8 @@ border-radius: 5px;
       align-items: center;
     }
     
-    header a {
+    header a 
+    {
       color: #ffffff;
       padding: 12px;
       text-decoration: none;
@@ -422,7 +432,8 @@ border-radius: 5px;
       border-radius: 4px;
     }
     
-    header a.logoi {
+    header a.logoi 
+    {
       font-size: 25px;
       font-weight: bold;
       
@@ -432,7 +443,8 @@ border-radius: 5px;
     {
         width: 125px;
     }
-    header a:hover {
+    header a:hover 
+    {
       color: #FBC02D;
       
     }
@@ -545,17 +557,19 @@ width: 153px;
 
 
 
-    .slider {
-      position: relative;
-      
+    .slider 
+    {
+      position: relative;   
       overflow: hidden;
     }
 
-    .slider-container {
+    .slider-container 
+    {
       display: flex;
     }
 
-    .slide {
+    .slide 
+    {
       min-width: 100%;
       height: 100vh;
       display: flex;
@@ -574,18 +588,19 @@ width: 153px;
       transform: translateY(-50%);
       background: none;
       border: none;
-      font-size: 2rem;
+      font-size: 31px;
       cursor: pointer;
-      
       z-index: 10;
     }
 
-    .arrow.left {
+    .arrow.left 
+    {
       
-      left: 10px;
+left: 10px;
     }
 
-    .arrow.right {
+    .arrow.right 
+    {
       right: 10px;
     }
 
@@ -663,7 +678,8 @@ width: 153px;
     background-color: rgba(0,0,0,0.4); /*Черный с непрозрачностью */
   }
 
-.image-text-container {
+.image-text-container 
+{
   margin-top: 150px;
   position: relative;
   display: inline-block;
@@ -673,7 +689,8 @@ width: 153px;
 
 .headermap{display:flex; justify-content:center;}
 
-.map-responsive{
+.map-responsive
+{
   overflow:hidden;
   padding:;
   padding:0px 0px 308px 0px;
@@ -681,7 +698,9 @@ width: 153px;
   height:0;
   margin-top:200px
 }
-.map-responsive iframe{
+
+.map-responsive iframe
+{
   left:0;
   top:0;
   height:100%;
@@ -710,7 +729,8 @@ width: 153px;
 .vv
 {display: flex;}
 
-.vvv{
+.vvv
+{
   display: flex;
 }
 .radiovso
@@ -719,7 +739,8 @@ width: 153px;
 
 
 
-.btn {
+.btn 
+{
   display: flex;
 }
 
@@ -754,16 +775,19 @@ width: 153px;
 }
 
 
-[type="radio"], .vv, .vvv {
+[type="radio"], .vv, .vvv 
+{
 display: none;
 }
+
 #vv:checked ~ .vv,
 #vvv:checked ~ .vvv
 {
 display: block;
 }
 
-.image-text-container {
+.image-text-container 
+{
   border-radius: 35px;
   transition: all .5s linear;
   margin-top: 133px;
@@ -773,14 +797,16 @@ display: block;
 }
 
 
-.image-text-containerd {
+.image-text-containerd 
+{
   margin-top: 149px;
   position: relative;
   display: inline-block;
   margin-left: 150px;
 }
 
-.image-text-containerde {
+.image-text-containerde 
+{
   margin-top: 149px;
   position: relative;
   display: inline-block;
@@ -1069,7 +1095,7 @@ border-bottom:1px solid #E0E4CC;
   .phone-image{width:px;}
   .vessob{padding-left:20px}
   .header-sobtitle{font-size:24px;}
-  .slider{width:400px; height:320px; margin-left:17px; border-radius:35px }
+  .slider{width:320px; height:400px; margin-left:55px; margin-top:100px; border-radius:36px }
   .map{display: block;width:430px;}
   .cont{width:430px;}
   .nom{width:200px; margin-top:70px}
@@ -1090,6 +1116,10 @@ border-bottom:1px solid #E0E4CC;
   .inter3{display:block; padding:10px 10px 10px 10px; }
   .itetre3{width:400px; }
   .titleintt3{font-size:16px;margin-top:40px; margin-left:0px; padding:20px 10px 20px 30px}
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .arrow {top: 45%;font-size: 30px;}
 }
 
 @media (max-width: 414px)
@@ -1098,10 +1128,14 @@ border-bottom:1px solid #E0E4CC;
   .login{position:absolute; margin:40px  0px 260px 310px}
   .itetre2{width:370px; padding-left:14px } 
   .itetre3{width:370px; padding-left:4px}
-  .slider{width:370px; height:320px; margin-left:24px; border-radius:35px }
+  .slider{width:320px; height:400px; margin-left:55px; margin-top:100px; border-radius:36px }
   .vessob{padding-left:0px}
   .cont{width:414px;}
   .bot{width:414px;}
+ .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .arrow {top: 50%;font-size: 30px;}
 }
 
 @media (max-width: 412px)
@@ -1110,13 +1144,18 @@ border-bottom:1px solid #E0E4CC;
   .itetre1{width:370px; padding-left:4px}
   .itetre2{width:370px; padding-left:14px } 
   .itetre3{width:370px; padding-left:4px}
-  .slider{width:370px; height:320px; margin-left:24px; border-radius:35px }
+  .slider{width:320px; height:500px; margin-left:40px; margin-top:100px; border-radius:36px }
   .vessob{padding-left:0px}
   .map-responsive{width:412px}
   .cont{width:412px}
   .loginb{margin-left:80px; margin-top: 80px;}
   .bot{width:390px;}
   .nom{margin-left:0px; margin-top: 80px;}
+   .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .arrow {top: 45%;font-size: 30px;}
+}
 
 }
 
@@ -1125,7 +1164,7 @@ border-bottom:1px solid #E0E4CC;
    .itetre1{width:350px; padding-left:4px}
   .itetre2{width:350px; padding-left:14px } 
   .itetre3{width:350px; padding-left:4px}
-  .slider{width:330px; height:320px; margin-left:40px; border-radius:35px }
+  .slider{width:320px; height:500px; margin-left:35px; margin-top:100px; border-radius:36px }
   .vessob{padding-left:0px}
   .login{position:absolute; margin:40px  0px 260px 290px}
   .navm {font-size:10pt;}
@@ -1138,6 +1177,11 @@ border-bottom:1px solid #E0E4CC;
   .veshea{justify-content:inherit; margin-top:430px; margin-left:10px}
   .header-sobtitlle{font-size:14pt; margin-top:0px}
   .header-sobtitlee{font-size:14pt}
+  .slayicon{width:290px;  margin:0px 0px 0px -50px }
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .arrow {top: 45%;font-size: 30px;}
 }
 
 
@@ -1148,7 +1192,7 @@ border-bottom:1px solid #E0E4CC;
   .itetre1{width:320px; padding-left:4px}
   .itetre2{width:320px; padding-left:14px } 
   .itetre3{width:320px; padding-left:4px}
-  .slider{width:320px; height:320px; margin-left:30px; border-radius:35px }
+  .slider{width:320px; height:500px; margin-left:30px; margin-top:100px; border-radius:36px }
   .vessob{padding-left:0px}
   .login{position:absolute; margin:40px  0px 260px 290px}
   .navm {font-size:10pt;}
@@ -1165,6 +1209,10 @@ border-bottom:1px solid #E0E4CC;
   .con{width:300px; padding-left:50px}
   .co{width:300px;  padding-left:50px}
   .slayicon{width:290px;  margin:0px 0px 0px -50px }
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .arrow {top: 45%;font-size: 30px;}
 }
 
 @media (max-width: 360px)
@@ -1172,7 +1220,7 @@ border-bottom:1px solid #E0E4CC;
   .itetre1{width:320px; padding-left:4px}
   .itetre2{width:320px; padding-left:14px } 
   .itetre3{width:320px; padding-left:4px}
-  .slider{width:320px; height:320px; margin-left:30px; border-radius:35px }
+  .slider{width:320px; height:500px; margin-left:20px; margin-top:100px; border-radius:36px }
   .vessob{padding-left:0px}
   .login{position:absolute; margin:40px  0px 270px 260px}
   .navm {font-size:10pt;}
@@ -1189,6 +1237,11 @@ border-bottom:1px solid #E0E4CC;
   .con{width:300px; padding-left:50px}
   .co{width:300px;  padding-left:50px}
   .slayicon{width:290px;  margin:0px 0px 0px -50px }
+  .slide:nth-child(1){background-image: url(/src/icon/ind/aciasmall.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
+  .slide:nth-child(2){background-image: url(/src/icon/ind/sushismall.png); height:422px;width:320px;border-radius:36px; margin-left:-9px;}
+  .slide:nth-child(3){background-image: url(/src/icon/ind/coffeesmall.png); height:422px; width:320px;border-radius:36px; margin-left:-0px;}
+  .arrow {top: 45%;font-size: 30px;}
+  
 }
 
 
