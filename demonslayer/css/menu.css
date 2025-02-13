@@ -247,53 +247,83 @@ border-radius: 5px;
     .modal 
   {
 
-     
-    display: none; /* Скрыто по умолчанию */
-    position: fixed; /* Оставаться на месте */
-    z-index: 1; /* Сидеть на вершине */
-    padding-top: 100px; /* Расположение коробки */
-    left: 0;
-    top: 0;
-    width: 100%; /* Полная ширина */
-    height: 100%; /* Полная высота */
-   overflow: auto; /* Включите прокрутку, если это необходимо */
-    background-color: rgb(0,0,0); /* Цвет запасной вариант  */
-    background-color: rgba(0,0,0,0.4); /*Черный с непрозрачностью */
-  }
+display: none; /* Скрыто по умолчанию */
+
+position: fixed; /* Оставаться на месте */
+
+z-index: 1; /* Сидеть на вершине */
+
+padding-top: 37px; /* Расположение коробки */
+
+left: 0;
+
+top: 0;
+
+width: 100%; /* Полная ширина */
+
+height: 100%; /* Полная высота */
+
+overflow: auto; /* Включите прокрутку, если это необходимо */
+
+background-color: rgb(0,0,0); /* Цвет запасной вариант  */
+
+background-color: rgba(0,0,0,0.4); /*Черный с непрозрачностью */
+
+}
 
   .modald 
   {
 
-     
-    display: none; /* Скрыто по умолчанию */
-    position: fixed; /* Оставаться на месте */
-    z-index: 1; /* Сидеть на вершине */
-    padding-top: 100px; /* Расположение коробки */
-    left: 0;
-    top: 0;
-    width: 100%; /* Полная ширина */
-    height: 100%; /* Полная высота */
-   overflow: auto; /* Включите прокрутку, если это необходимо */
-    background-color: rgb(0,0,0); /* Цвет запасной вариант  */
-    background-color: rgba(0,0,0,0.4); /*Черный с непрозрачностью */
-  }
+display: none; /* Скрыто по умолчанию */
+
+position: fixed; /* Оставаться на месте */
+
+z-index: 1; /* Сидеть на вершине */
+
+padding-top: 10px; /* Расположение коробки */
+
+left: 0;
+
+top: 0;
+
+width: 100%; /* Полная ширина */
+
+height: 100%; /* Полная высота */
+
+overflow: auto; /* Включите прокрутку, если это необходимо */
+
+background-color: rgb(0,0,0); /* Цвет запасной вариант  */
+
+background-color: rgba(0,0,0,0.4); /*Черный с непрозрачностью */
+
+}
 
   .modalde 
   {
 
-     
-    display: none; /* Скрыто по умолчанию */
-    position: fixed; /* Оставаться на месте */
-    z-index: 1; /* Сидеть на вершине */
-    padding-top: 100px; /* Расположение коробки */
-    left: 0;
-    top: 0;
-    width: 100%; /* Полная ширина */
-    height: 100%; /* Полная высота */
-   overflow: auto; /* Включите прокрутку, если это необходимо */
-    background-color: rgb(0,0,0); /* Цвет запасной вариант  */
-    background-color: rgba(0,0,0,0.4); /*Черный с непрозрачностью */
-  }
+display: none; /* Скрыто по умолчанию */
+
+position: fixed; /* Оставаться на месте */
+
+z-index: 1; /* Сидеть на вершине */
+
+padding-top: 10px; /* Расположение коробки */
+
+left: 0;
+
+top: 0;
+
+width: 100%; /* Полная ширина */
+
+height: 100%; /* Полная высота */
+
+overflow: auto; /* Включите прокрутку, если это необходимо */
+
+background-color: rgb(0,0,0); /* Цвет запасной вариант  */
+
+background-color: rgba(0,0,0,0.4); /*Черный с непрозрачностью */
+
+}
 
   .modallu
   {
@@ -356,14 +386,12 @@ border-radius: 5px;
 
 
 
-.btn {
-  display: flex;
-}
-
 .btn_
 {
-  background-color: black;
-  color: white;
+  font-size: 45px;
+  /* margin-left: 393px; */
+  /* background-color: black; */
+  color: #141313;
   padding: 20px 40px 20px 40px;
   border-radius: 30px;
   transition: all .5s linear;
@@ -371,6 +399,7 @@ border-radius: 5px;
 
 .btnn_
 {
+  margin-right: 509px;
   background-color: black;
   color: white;
   padding: 20px 40px 20px 40px;
@@ -389,7 +418,6 @@ border-radius: 5px;
   padding:30px 50px 30px 50px ;
   transition: all .5s linear;
 }
-
 
 [type="radio"], .vv, .vvv {
 display: none;
@@ -475,7 +503,7 @@ display: block;
 
 .btn_
 {
-  margin-left: 474px;
+  /* margin-left: 474px; */
   background-color: black;
   color: white;
   padding: 20px 40px 20px 40px;
@@ -517,18 +545,20 @@ display: block;
 
 
 .ddd
-{margin-left: 100px;display: flex;justify-content: space-around;padding-top: 60px;}
+{margin-left: 100px;display: flex;justify-content: space-around;padding-top: 33px;}
+
+.vtor-rad
+{margin-left: 200px;display: flex;justify-content: space-around;padding-top: 0px;}
+
 
 .containerf
-{border-radius: 35px;max-width: 390px;margin: 1em;background:#FFF;padding: 20px;margin-top: 100px;}
+{border-radius: 35px;max-width: 390px;margin: 1em;background:#FFF;padding: 23px;margin-top: 100px;}
 
 .productcont 
-{
-display: flex; 
-}
+{display: flex;}
 
 .product 
-{border-radius: 35px;padding:1em;border:1px solid #E0E4CC;margin-right:1em;font-size: 16px;}
+{border-radius: 35px; padding: 19px; border: 1px solid #E0E4CC;margin-right:1em;font-size: 16px;}
 
 .kem
 {
@@ -563,12 +593,50 @@ transition: background-color 0.5s linear;
 }
 
 .pt
+{/* padding-top: 20px; *//* margin-left:  245px; */transition: all ease 0.5s;}
+
+.contenier-dop-infa
 {
-padding-top: 20px;
-margin-left:  245px;
-transition: all ease 0.5s;
+  margin-top:40px;
+  display:flex;
+  justify-content: space-between;
+
 }
 
+.tooltip {
+  padding-left: 11px;
+  width: 30px;
+  position: relative;
+  display: inline-block;
+  /* border-bottom: 1px dotted black; */
+}
+
+.tooltip .tooltiptext {
+  margin-left: 20px;
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  font-size: 14px;
+  text-align: start;
+  border-radius: z;
+  padding: 7px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -40px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+  border-radius: 5px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
 
 button:hover, button:focus, button:active, input[type="submit"]:hover, input[type="submit"]:focus, input[type="submit"]:active {
   background: #7be69b;
@@ -623,7 +691,8 @@ border-bottom:1px solid #E0E4CC;
   font-size: 78px;
 }
 
-.arrow{
+.arrow
+{
   
 
 }
@@ -645,27 +714,37 @@ border-bottom:1px solid #E0E4CC;
   .btn_{margin:0 0 0 0}
   .btnn_{margin:0}
   .zakrad{padding:10 10 10 }
-  .image-text-container{margin-left:120px;}
-  .image-text-containerd{margin-left:120px}
-  .image-text-containerde{margin-left:120px}
-  .image-text-containerl{margin-left:120px}
-  .kt-bt{width:200px; height:480px}
+  .image-text-container{margin-left:50px; margin-top:100px}
+  .image-text-containerd{margin-left:50px ; margin-top:0px}
+  .image-text-containerde{margin-left:50px; margin-top:0px}
+  .image-text-containerl{margin-left:50px; margin-top:30px}
+  .kt-bt{width:150px; height:370px}
   .ddd{display:block; margin-left:10px}
+  .vtor-rad{display:block; margin-left:10px}
   .kt-b{width:300px; margin-left:10px}
-  .pt{margin-left: 220px  } 
+  .pt{/* margin-left: 220px; */} 
 }
 @media (max-width: 414px)
 {
+  .product{padding: 12px;}
   .log{width:120px;margin-left:10px}
   .navm {font-size:10pt;}
   .kt-b{width:300px; margin-left:10px}
-  .pt{margin-left: 200px  } 
+  .image-text-container{margin-left:40px; margin-top:100px}
+  .image-text-containerd{margin-left:40px ; margin-top:0px}
+  .image-text-containerde{margin-left:40px; margin-top:0px}
+  .image-text-containerl{margin-left:40px; margin-top:30px}
+  .text-overlay{font-size:20pt}
+  .pt{/* margin-left: 200px; */} 
 }
 
 @media (max-width: 412px)
 {
+  .kem{ font-size:16px}
+  .tooltip{padding-left:3px}
+  .product{padding: 12px; font-size:14px}
   .kt-b{width:300px; margin-left:5px}
-  .pt{margin-left: 190px  } 
+  .pt{ } 
 }
 
 @media (max-width: 390px)
@@ -675,11 +754,28 @@ border-bottom:1px solid #E0E4CC;
   .login{position:absolute; margin:40px  0px 310px 330px}
   .logi{margin-left:10px}
   .kt-b{width:260px; margin-left:5px}
-  .pt{margin-left: 170px  } 
+  .image-text-container{margin-left:30px; margin-top:100px}
+  .image-text-containerd{margin-left:30px ; margin-top:0px}
+  .image-text-containerde{margin-left:30px; margin-top:0px}
+  .image-text-containerl{margin-left:30px; margin-top:30px}
+  .text-overlay{font-size:20pt}
+  .pt{} 
+  .product{padding: 16px; font-size:14px}
   .containerf {border-radius: 35px;max-width: 300px; margin: 1em;background:#FFF;padding: 20px;margin-top: 100px;}
   .containere {border-radius: 35px;max-width: 300px; margin: 1em;background:#FFF;padding: 20px;margin-top: 100px;}
   .ddd{display:block; margin-left:10px; width:370px}
 }
+
+@media (max-width: 375px)
+{
+  .image-text-container{margin-left:30px; margin-top:100px}
+  .image-text-containerd{margin-left:30px ; margin-top:0px}
+  .image-text-containerde{margin-left:30px; margin-top:0px}
+  .image-text-containerl{margin-left:30px; margin-top:30px}
+  .kt-bt{width:140px; height:370px}
+  .text-overlay{font-size:20pt} 
+}
+
 
 @media (max-width: 360px)
 {
@@ -689,7 +785,12 @@ border-bottom:1px solid #E0E4CC;
   .logi{margin-left:10px}
   .navi {font-size:10pt;}
   .kt-b{width:260px; margin-left:5px}
-  .pt{margin-left: 170px  } 
+  .pt{} 
+  .product{padding: 16px; font-size:14px}
+  .image-text-container{margin-left:25px; margin-top:100px}
+  .image-text-containerd{margin-left:25px ; margin-top:0px}
+  .image-text-containerde{margin-left:25px; margin-top:0px}
+  .image-text-containerl{margin-left:25px; margin-top:30px}
   .containerf {border-radius: 35px;max-width: 300px; margin: 1em;background:#FFF;padding: 20px;margin-top: 100px;}
   .containere {border-radius: 35px;max-width: 300px; margin: 1em;background:#FFF;padding: 20px;margin-top: 100px;}
   .ddd{display:block; margin-left:0px; width:370px}

@@ -1146,9 +1146,11 @@ border-bottom:1px solid #E0E4CC;
   
 }
 
+
+
 @media (max-width: 412px)
 {
-
+  
   .itetre1{width:370px; padding-left:4px}
   .itetre2{width:370px; padding-left:14px } 
   .itetre3{width:370px; padding-left:4px}
@@ -1181,6 +1183,7 @@ border-bottom:1px solid #E0E4CC;
   .slayicon{width:300px;  margin:0px 0px 0px -50px }
   .map-responsive{width:390px}
   .cont{width:390px;}
+  
   .loginb{margin-left:90px;margin-top: 80px;}
   .bot{width:390px;}
   .tanjiro{display:none}
@@ -1196,7 +1199,7 @@ border-bottom:1px solid #E0E4CC;
   .arrow {top: 50%;font-size: 30px;}
   
 }
-
+slide:nth-child(1){background-image: url(/demonslayer/src/img/menu/mini-kitchen.png); height:422px; width:320px;border-radius:36px; margin-left:10px;}
 
 
 
