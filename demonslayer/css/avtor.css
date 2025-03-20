@@ -301,6 +301,7 @@
               }
               
               
+             
           
             
           
@@ -327,8 +328,12 @@
                 opacity: 1;
               }
           
-          
-          
+              
+            .login-field
+            
+              {margin-top: 20px;}
+            .login-fieldpass
+            {margin-top:10px}
           
               .veshea {
                 letter-spacing: .1rem;
@@ -369,7 +374,8 @@
     text-align: center;
     color: #777;
     }
-    
+
+  
     .login-form {
     text-align: center;
     }
